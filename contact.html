@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Contact Us</title>
+</head>
+
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <div class="container">
+        <header>
+            <h1>Contact us</h1>
+        </header>
+        <hr>
+        <main>
+            <form class="contact" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                <h1>U kunt contact met ons opnemen met onderstaand formulier:</h1>
+                  <label for="username">Naam:</label><br>
+                  <input type="text" id="username" name="username" size="25"><br><br>
+                  <label for="email">Emailadres:</label><br>
+                  <input type="email" id="email" name="email" size="25"><br><br>
+                <label for="opdracht">Opdracht:</label><br>
+                  <input type="text" id="opdracht" name="opdracht" size="50"><br><br>
+                <div data-netlify-recaptcha="true"></div>
+                  <input type="submit" id="submit" name="submit"><br><br>
+            </form>
+
+
+        </main>
+        <footer>
+            <nav class="button">
+                <a href="index.html">
+                    <p>Back to the mainpage...</p>
+                </a>
+            </nav>
+        </footer>
+    </div><!-- Container DIV-->
+</body>
+
+</html>
